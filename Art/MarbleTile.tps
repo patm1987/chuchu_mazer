@@ -90,9 +90,9 @@
         <key>maxTextureSize</key>
         <QSize>
             <key>width</key>
-            <int>2048</int>
+            <int>1024</int>
             <key>height</key>
-            <int>2048</int>
+            <int>1024</int>
         </QSize>
         <key>fixedTextureSize</key>
         <QSize>
@@ -205,9 +205,11 @@
         </struct>
         <key>individualSpriteSettings</key>
         <map type="IndividualSpriteSettingsMap">
-            <key type="filename">MarbleTile/sprite_0.png</key>
-            <key type="filename">MarbleTile/sprite_1.png</key>
-            <key type="filename">MarbleTile/sprite_2.png</key>
+            <key type="filename">MarbleTile/arrow.png</key>
+            <key type="filename">MarbleTile/goal.png</key>
+            <key type="filename">MarbleTile/ground_0.png</key>
+            <key type="filename">MarbleTile/ground_1.png</key>
+            <key type="filename">MarbleTile/slime_1.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>

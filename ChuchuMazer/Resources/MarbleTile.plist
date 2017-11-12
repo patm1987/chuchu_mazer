@@ -64,6 +64,36 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
+            <key>slime_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,32}</string>
+                <key>textureRect</key>
+                <string>{{128,0},{32,32}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>source.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,32}</string>
+                <key>textureRect</key>
+                <string>{{160,0},{32,32}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
         </dict>
         <key>metadata</key>
         <dict>
@@ -76,9 +106,9 @@
             <key>realTextureFileName</key>
             <string>MarbleTile.png</string>
             <key>size</key>
-            <string>{128,32}</string>
+            <string>{192,32}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:57ba7608059a8481f0b324fb5a8a13a9:cee0364481be42088c62bfd35f8acb84:4997536ae8048fb291b232358277368b$</string>
+            <string>$TexturePacker:SmartUpdate:511a5490391b0ed1cdd7db0fc3d51b57:ceb10738d679f85546217ebbd3b2169c:4997536ae8048fb291b232358277368b$</string>
             <key>textureFileName</key>
             <string>MarbleTile.png</string>
         </dict>
