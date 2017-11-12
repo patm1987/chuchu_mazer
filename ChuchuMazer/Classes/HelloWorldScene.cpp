@@ -25,8 +25,8 @@ bool HelloWorld::init()
 		return false;
 	}
 
-	auto visibleSize = Director::getInstance()->getVisibleSize();
-	Vec2 origin = Director::getInstance()->getVisibleOrigin();
+	const auto visibleSize = Director::getInstance()->getVisibleSize();
+	const Vec2 origin = Director::getInstance()->getVisibleOrigin();
 
 	/////////////////////////////
 	// 2. add a menu item with "X" image, which is clicked to quit the program
@@ -91,6 +91,21 @@ bool HelloWorld::init()
 		// add the sprite as a child to this layer
 		this->addChild(sprite, 0);
 	}
+
+	auto spriteCache = SpriteFrameCache::getInstance();
+	spriteCache->addSpriteFramesWithFile("MarbleTile.plist");
+
+	auto node = new Node();
+	auto groundSprite = Sprite::createWithSpriteFrameName("sprite_0.png");
+	groundSprite->getTexture()->setAliasTexParameters();
+	auto backedGround = Sprite::createWithSpriteFrameName("sprite_1.png");
+	auto arrow = Sprite::createWithSpriteFrameName("sprite_2.png");
+	node->addChild(groundSprite, 0);
+	node->addChild(backedGround, 0);
+	node->addChild(arrow, 1);
+	node->setScale(4.f);
+	node->setPosition(Vec2(visibleSize.width / 2.f, visibleSize.height / 2.f));
+	addChild(node);
 	return true;
 }
 
