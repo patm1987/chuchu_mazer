@@ -96,13 +96,15 @@ bool HelloWorld::init()
 	spriteCache->addSpriteFramesWithFile("MarbleTile.plist");
 
 	auto node = new Node();
-	auto groundSprite = Sprite::createWithSpriteFrameName("sprite_0.png");
+	auto groundSprite = Sprite::createWithSpriteFrameName("ground_0.png");
 	groundSprite->getTexture()->setAliasTexParameters();
-	auto backedGround = Sprite::createWithSpriteFrameName("sprite_1.png");
-	auto arrow = Sprite::createWithSpriteFrameName("sprite_2.png");
+	auto backedGround = Sprite::createWithSpriteFrameName("ground_1.png");
+	auto arrow = Sprite::createWithSpriteFrameName("arrow.png");
+	auto goal = Sprite::createWithSpriteFrameName("goal.png");
 	node->addChild(groundSprite, 0);
 	node->addChild(backedGround, 0);
 	node->addChild(arrow, 1);
+	node->addChild(goal, 0);
 	node->setScale(4.f);
 	node->setPosition(Vec2(visibleSize.width / 2.f, visibleSize.height / 2.f));
 	addChild(node);

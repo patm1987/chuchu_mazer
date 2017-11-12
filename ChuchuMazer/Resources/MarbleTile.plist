@@ -4,7 +4,7 @@
     <dict>
         <key>frames</key>
         <dict>
-            <key>sprite_0.png</key>
+            <key>arrow.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -19,7 +19,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>sprite_1.png</key>
+            <key>goal.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -34,7 +34,7 @@
                 <key>textureRotated</key>
                 <false/>
             </dict>
-            <key>sprite_2.png</key>
+            <key>ground_0.png</key>
             <dict>
                 <key>aliases</key>
                 <array/>
@@ -46,6 +46,21 @@
                 <string>{32,32}</string>
                 <key>textureRect</key>
                 <string>{{64,0},{32,32}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>ground_1.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{32,32}</string>
+                <key>spriteSourceSize</key>
+                <string>{32,32}</string>
+                <key>textureRect</key>
+                <string>{{96,0},{32,32}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -61,9 +76,9 @@
             <key>realTextureFileName</key>
             <string>MarbleTile.png</string>
             <key>size</key>
-            <string>{96,32}</string>
+            <string>{128,32}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:304842e5cc81c5877b138b8341de4ea8:aee0ed380c13d0cd3fb60acd882a8cd8:4997536ae8048fb291b232358277368b$</string>
+            <string>$TexturePacker:SmartUpdate:57ba7608059a8481f0b324fb5a8a13a9:cee0364481be42088c62bfd35f8acb84:4997536ae8048fb291b232358277368b$</string>
             <key>textureFileName</key>
             <string>MarbleTile.png</string>
         </dict>
