@@ -1105,7 +1105,7 @@ void NodeLoader::onHandlePropTypeCheck(Node * pNode, Node * /*pParent*/, const c
     }
 }
 
-void NodeLoader::onHandlePropTypeSpriteFrame(Node * /*pNode*/, Node * /*pParent*/, const char* pPropertyName, SpriteFrame * /*pSpriteFrame*/, CCBReader * /*ccbReader*/) {
+void NodeLoader::onHandlePropTypeSpriteFrame(Node * /*pNode*/, Node * /*pParent*/, const char* pPropertyName, SpriteFrame * /*_pSpriteFrame*/, CCBReader * /*ccbReader*/) {
     ASSERT_FAIL_UNEXPECTED_PROPERTY(pPropertyName);
 }
 

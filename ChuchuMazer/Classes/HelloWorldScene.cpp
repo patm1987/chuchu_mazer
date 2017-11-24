@@ -108,6 +108,23 @@ bool HelloWorld::init()
 	node->setScale(4.f);
 	node->setPosition(Vec2(visibleSize.width / 2.f, visibleSize.height / 2.f));
 	addChild(node);
+
+	auto g0 = MapTile(spriteCache->getSpriteFrameByName("ground_0.png"));
+	auto g1 = MapTile(spriteCache->getSpriteFrameByName("ground_1.png"));
+	auto go = MapTile(spriteCache->getSpriteFrameByName("goal.png"));
+	auto mapConfig = ::Map::Config {
+		std::vector<MapTile>{
+			g1, g1, g1, g1, g1,
+			g1, g0, g0, g0, g1,
+			g1, g0, go, g0, g1,
+			g1, g0, g0, g0, g1,
+			g1, g1, g1, g1, g1
+		}
+	};
+	auto map = new ::Map(mapConfig);
+	addChild(map);
+	map->autorelease();
+
 	return true;
 }
 

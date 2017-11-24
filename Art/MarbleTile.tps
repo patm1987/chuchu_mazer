@@ -210,6 +210,7 @@
             <key type="filename">MarbleTile/ground_0.png</key>
             <key type="filename">MarbleTile/ground_1.png</key>
             <key type="filename">MarbleTile/slime_1.png</key>
+            <key type="filename">MarbleTile/source.png</key>
             <struct type="IndividualSpriteSettings">
                 <key>pivotPoint</key>
                 <point_f>0.5,0.5</point_f>
